@@ -1,0 +1,43 @@
+h1.header {
+    color: #FFFEDF;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5em;
+}
+
+.intro {
+    background: #131415;
+}
+
+.navbar {
+    background-color: #131415;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    padding 2em;
+}
+
+ul.navbar-nav, li.nav-item, a.nav-link {
+    color: coral;
+    font-size: 1.2em;
+}
+
+ul.navbar-nav, li.nav-item, a.nav-link:hover {
+    color: #FFFEDF;
+}
+
+footer {
+    background-color: #FFFEDF;
+    color: #131415;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul.list-unstyled, li, a {
+    color: coral;
+}
+
+ul.list-unstyled, li, a:hover {
+    color: #131415;
+}
