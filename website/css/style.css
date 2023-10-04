@@ -6,15 +6,29 @@ h1.header {
     font-size: 5em;
 }
 
-.intro {
+h1#custom-slider {
+    color: #FFFEDF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+}
+
+#intro {
     background: #131415;
+}
+
+#sec1 {
+    background: #ff0000;
+}
+
+.selector-space {
+    margin-bottom: 2.5em;
 }
 
 .navbar {
     background-color: #131415;
-    margin-left: 2em;
     margin-bottom: 2em;
-    margin-right: 2em;
     font-family: 'Ubuntu', sans-serif;
     padding 2em;
 }
