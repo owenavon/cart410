@@ -1,4 +1,4 @@
-h1.header {
+h1#header-text {
     color: #FFFEDF;
     margin-top: 2.5em;
     margin-bottom: 2.5em;
@@ -14,16 +14,12 @@ h1#custom-slider {
     font-size: 3em;
 }
 
-#intro {
+#sec1 {
     background: #131415;
 }
 
-#sec1 {
-    background: #ff0000;
-}
-
 .selector-space {
-    margin-bottom: 2.5em;
+    margin-top: 7.5em;
 }
 
 .navbar {
@@ -54,4 +50,8 @@ ul.list-unstyled, li, a {
 
 ul.list-unstyled, li, a:hover {
     color: #131415;
+}
+
+#colorpicker:hover {
+    
 }

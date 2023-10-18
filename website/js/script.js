@@ -6,5 +6,9 @@ document.getElementById("colorpicker").addEventListener("change", function() {
 
 //Colour Picker
 document.getElementById("colorpickertext").addEventListener("change", function() {
-    document.getElementById("custom-slider").style.color = this.value;
+    document.getElementById("header-text").style.color = this.value;
+});
+
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 });
