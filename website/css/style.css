@@ -1,41 +1,65 @@
 h1#header-text {
     color: #FFFEDF;
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+/*    margin-bottom: 1.5em;*/
     font-family: 'Ubuntu', sans-serif;
     font-size: 5em;
 }
 
-h1#custom-slider {
-    color: #FFFEDF;
+p#custom-slider {
+    color: #000000;
     margin-top: 1em;
     margin-bottom: 1em;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 #sec1 {
+    background: #ffffff;
+}
+
+#sec2 {
     background: #131415;
 }
 
+h2.main-colour {
+    color: #FFFEDF;
+    margin-top: 0px;
+}
+
+h3.main-colour {
+    color: #FFFEDF;
+    text-decoration: underline;
+    margin-top: 2em;
+}
+
+p.main-colour {
+    color: #FFFEDF;
+}
+
+li.main-colour {
+    color: #FFFEDF;
+}
+
 .selector-space {
-    margin-top: 7.5em;
+    margin-bottom: 2em;
 }
 
 .navbar {
     background-color: #131415;
     margin-bottom: 2em;
     font-family: 'Ubuntu', sans-serif;
-    padding 2em;
+    padding 1em;
+    position: relative;
 }
 
 ul.navbar-nav, li.nav-item, a.nav-link {
-    color: coral;
+    color: #FFFEDF;
     font-size: 1.2em;
 }
 
 ul.navbar-nav, li.nav-item, a.nav-link:hover {
-    color: #FFFEDF;
+    color: #ffffff;
 }
 
 footer {
@@ -52,6 +76,22 @@ ul.list-unstyled, li, a:hover {
     color: #131415;
 }
 
-#colorpicker:hover {
-    
+a.ui-link {
+    background: url("./images/external.png") no-repeat top right;
+    padding-right: 20px;
+    padding-top: -15px;
+}
+
+code {
+    background-color: #ffffff;
+}
+
+.code-block {
+    background: #ffffff;
+    border-radius: 20px;
+    width: 20%;
+}
+
+ul {
+    list-style-type: none;
 }

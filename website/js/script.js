@@ -1,7 +1,7 @@
 
 //Colour Picker
 document.getElementById("colorpicker").addEventListener("change", function() {
-    document.getElementById("sec1").style.backgroundColor = this.value;
+    document.getElementById("sec2").style.backgroundColor = this.value;
 });
 
 //Colour Picker
