@@ -1,35 +1,38 @@
+/*----------NAVBAR----------*/
+.navbar {
+    background-color: #FFFEDF;
+    font-family: 'Ubuntu', sans-serif;
+    padding 1em;
+    position: relative;
+}
+
+
+/*----------HEADERS----------*/
 h1#header-text {
     color: #FFFEDF;
     margin-top: 1.5em;
-/*    margin-bottom: 1.5em;*/
     font-family: 'Ubuntu', sans-serif;
     font-size: 5em;
-}
-
-p#custom-slider {
-    color: #000000;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5em;
-}
-
-#sec1 {
-    background: #ffffff;
-}
-
-#sec2 {
-    background: #131415;
 }
 
 h2.main-colour {
     color: #FFFEDF;
     margin-top: 0px;
+    margin-bottom: 2em;
+}
+
+h2.main-colour-black {
+    color: #131415;
+    margin-top: 0px;
 }
 
 h3.main-colour {
     color: #FFFEDF;
-    text-decoration: underline;
+    margin-top: 2em;
+}
+
+h3.main-colour-black {
+    color: #131415;
     margin-top: 2em;
 }
 
@@ -37,37 +40,16 @@ p.main-colour {
     color: #FFFEDF;
 }
 
-li.main-colour {
+p#custom-slider-text {
     color: #FFFEDF;
-}
-
-.selector-space {
-    margin-bottom: 2em;
-}
-
-.navbar {
-    background-color: #131415;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 5px;
     font-family: 'Ubuntu', sans-serif;
-    padding 1em;
-    position: relative;
+    font-size: 1.5em;
 }
 
-ul.navbar-nav, li.nav-item, a.nav-link {
-    color: #FFFEDF;
-    font-size: 1.2em;
-}
 
-ul.navbar-nav, li.nav-item, a.nav-link:hover {
-    color: #ffffff;
-}
-
-footer {
-    background-color: #FFFEDF;
-    color: #131415;
-    font-family: 'Ubuntu', sans-serif;
-}
-
+/*----------LISTS & LINKS----------*/
 ul.list-unstyled, li, a {
     color: coral;
 }
@@ -76,22 +58,75 @@ ul.list-unstyled, li, a:hover {
     color: #131415;
 }
 
+ul.navbar-nav, li.nav-item, a.nav-link {
+    color: #131415;
+    font-size: 1.2em;
+}
+
+ul.navbar-nav, li.nav-item, a.nav-link:hover {
+    color: coral;
+}
+
+li.code {
+    color: #131415;
+}
+
+li.main-colour {
+    color: #FFFEDF;
+}
+
 a.ui-link {
-    background: url("./images/external.png") no-repeat top right;
+    background: url("../images/external.png") no-repeat top right;
     padding-right: 20px;
     padding-top: -15px;
 }
 
-code {
-    background-color: #ffffff;
+a.ui-link:hover {
+    color: #FFFEDF;
 }
 
-.code-block {
+
+/*----------SECTIONS----------*/
+#sec1 {
     background: #ffffff;
-    border-radius: 20px;
-    width: 20%;
 }
 
-ul {
-    list-style-type: none;
+#sec2 {
+    background: #131415;
+}
+
+#sec3 {
+    background: #FFFEDF;
+}
+
+#sec4 {
+    background: #131415;
+}
+
+#sec5 {
+    background: #FFFEDF;
+}
+
+#sec6 {
+    background: #131415;
+}
+/*----------OTHER----------*/
+
+.col-md-6 {
+    padding-left: 50px;
+}
+
+.selector-space {
+    margin-bottom: 2em;
+}
+
+.space {
+    margin: 55px;
+}
+
+/*----------FOOTER----------*/
+footer {
+    background-color: #FFFEDF;
+    color: #131415;
+    font-family: 'Ubuntu', sans-serif;
 }
