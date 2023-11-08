@@ -110,6 +110,15 @@ a.ui-link:hover {
 #sec6 {
     background: #131415;
 }
+
+.banner {
+    position: relative;
+    background-color: #147feb;
+    background-size: contain;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
 /*----------OTHER----------*/
 
 .col-md-6 {
