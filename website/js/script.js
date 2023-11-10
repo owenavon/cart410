@@ -12,3 +12,21 @@ document.getElementById("colorpickertext").addEventListener("change", function()
 $(document).ready(function() {
     $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 });
+
+
+//Animation
+//function chageWord() {
+//  let word = document.getElementsByTagName("span");
+//  console.log(word);
+//  let words = ["extra", "super", "really", "extra", "so"];
+//  word[0].innerHTML = words[Math.floor(Math.random() * words.length)];
+//}
+
+function run() {
+  let timer;
+  timer = setInterval(function () {
+    chageWord();
+  }, 4000);
+}
+
+run();
