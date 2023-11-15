@@ -18,26 +18,58 @@ h1#header-text {
 h2.main-colour {
     color: #fcfbec;
     margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;
     margin-bottom: 2em;
+}
+
+h2.black-colour {
+    color: #131415;
+    margin-top: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 2em;
+}
+
+h2.black-colour-no-space {
+    color: #131415;
+    margin-top: 2em;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2.main-colour-black {
     color: #131415;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 0px;
 }
 
 h3.main-colour {
     color: #fcfbec;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 2em;
 }
 
 h3.main-colour-black {
     color: #131415;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 2em;
 }
 
-p.main-colour {
+p.main-banner-text {
+    color: #9f9e9a;
+}
+
+p.main-para {
+    color: #000000;
+    margin: 10px;
+}
+
+li.main-dot {
+    color: #000000;
+    margin: 10px;
+}
+
+li.white {
     color: #fcfbec;
+    margin: 10px;
 }
 
 p#custom-slider-text {
@@ -82,7 +114,7 @@ a.ui-link {
 }
 
 a.ui-link:hover {
-    color: #fcfbec;
+    color: #131415;
 }
 
 
@@ -97,7 +129,7 @@ a.ui-link:hover {
 }
 
 #tip2 {
-    background: #131415;
+    background: #fcfbec;
 }
 
 #tip3 {
@@ -105,6 +137,10 @@ a.ui-link:hover {
 }
 
 #tip4 {
+    background: #fcfbec;
+}
+
+#index-main-section {
     background: #fcfbec;
 }
 
@@ -122,50 +158,59 @@ a.ui-link:hover {
 
 h1.animation,
 h3.animation {
-  margin: 0;
-  font-family: sans-serif;
-  font-weight: 300;
-  color: #4f4f4f;
-  margin: 0;
-  mix-blend-mode: color-dodge;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #4f4f4f;
+    margin: 0;
+    mix-blend-mode: color-dodge;
 }
 
 h1.animation {
-  font-size: 4rem;
-  line-height: 100%;
+    font-size: 4rem;
+    line-height: 100%;
+    color: #fcfbec;
+    padding-left: 25%;
+    text-align: center;
+}
+
+h3.animation {
+    color: #fcfbec;
+    padding-left: 25%;
+    text-align: center;
 }
 
 .text {
-  width: 400px;
-  margin: 5% 5%;
+    width: 400px;
+    margin: 5% 5%;
 }
 
 .relative {
-  position: relative;
+    position: relative;
 }
 
-.white-text {
-  color: white;
+.beige-text {
+    color: #333333;
 }
 
 .absolute {
-  z-index: 100;
-  position: absolute;
-  width: 100vw;
-  height: 20vw;
-  top: 0rem;
+    z-index: 100;
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    top: 0rem;
 }
 
 .bg {
-  z-index: -10;
-  background-color: #333333;
-  height: 25vh;
-  max-width: 100px;
-  animation: x 3s ease-in 1s infinite alternate;
+    z-index: -10;
+    background-color: #333333;
+    height: 33vh;
+    max-width: 0px;
+    animation: x 3s ease-in 1s infinite alternate;
 }
 
 @keyframes x {
-  100% {
+    100% {
     max-width: 100vw;
   }
 }
