@@ -6,7 +6,6 @@
     position: relative;
 }
 
-
 /*----------HEADERS----------*/
 h1#header-text {
     color: #fcfbec;
@@ -72,6 +71,40 @@ li.white {
     margin: 10px;
 }
 
+li#gray {
+    color: #767676;
+}
+
+li#purple {
+    color: #CC21CC;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.green {
+    color: #00FF00;
+}
+
+.blue {
+    color: #000FFF;
+}
+
+.highlight-gray {
+    display: inline-block;
+    padding: .25em 0;
+    background: #808080;
+    color: #000063;
+}
+
+.highlight-yellow {
+    display: inline-block;
+    padding: .25em 0;
+    background: #FFFF47;
+    color: #E60000;
+}
+
 p#custom-slider-text {
     color: #fcfbec;
     margin-top: 1em;
@@ -79,7 +112,6 @@ p#custom-slider-text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5em;
 }
-
 
 /*----------LISTS & LINKS----------*/
 ul.list-unstyled, li, a {
@@ -153,6 +185,26 @@ a.ui-link:hover {
     padding-bottom: 10rem;
 }
 
+.col-1 {
+    background: #ffffff;
+    margin: 10px;
+}
+
+.col-2 {
+    background: #ffffff;
+    margin: 10px;
+}
+
+.col-3 {
+    background: #ffffff;
+    margin: 10px;
+}
+
+.col-4 {
+    background: #ffffff;
+    margin: 10px;
+}
+
 
 /*----------ANIMATION----------*/
 
@@ -202,7 +254,6 @@ h3.animation {
 }
 
 .bg {
-    z-index: -10;
     background-color: #333333;
     height: 33vh;
     max-width: 0px;

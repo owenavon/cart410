@@ -75,7 +75,6 @@
                     
                     <!--Contrast Animation-->
                     <div class="col-lg-12">
-                        <h3 class="main-colour-black"><strong>Contrast Introduction</strong></h3>
                         <div class="relative">
                             <div class="bg"> </div>
                             <div class="absolute">
@@ -87,37 +86,52 @@
                         </div>
                     </div>
                     
-                    <!--Coll 1-->
-                    <div class="col-lg-6">
+                    <!--Col 1-->
+                    <div class="col-lg-12 col-1">
                         <p class="main-para">According to WCAG 2, contrast is a measure of the difference in perceived "luminance" or brightness between two colors. The brightness difference is expressed as a ratio ranging from 1:1 (white on white) to 21:1 (black on a white).</p>
-                    </div>
-                    
-                    <!--Coll 2-->
-                    <div class="col-lg-6">
+                        
                         <ul>
-                            <li class="main-dot">Pure red (#FF0000) has a ratio of 4:1. I am red text.</li>
-                            <li class="main-dot">Pure green (#00FF00) has a very low ratio of 1.4:1. I am green text.</li>
-                            <li class="main-dot">Pure blue (#000FF) has a contrast ratio of 8.6:1.I am blue text.</li>
-                        </ul>                   
+                            <li>Pure red (#FF0000) has a ratio of 4:1. <span class="red">I am red text.</span></li>
+                            <li>Pure green (#00FF00) has a very low ratio of 1.4:1. <span class="green">I am green text.</span></li>
+                            <li>Pure blue (#000FF) has a contrast ratio of 8.6:1. <span class="blue">I am blue text.</span></li>
+                        </ul>
+                                           
                     </div>
                     
-                    <!--Fukl Width Row-->
-                    <div class="col-lg-12">
-                    <hr>
+                    <!--Col 2-->
+                    <div class="col-lg-6 col-2">
+                    <span class="space"></span>
                         <p><strong>Contrast (Minimum)</strong></p>
                         <p class="main-para">In order to achieve Accessibility Level AA, The visual presentation of text and images of text has a contrast ratio of at least 4.5:1</p>
-                        <p class="main-para">More info + images and examples to be added. https://webaim.org/articles/contrast/</p>
-                        <span class="space"></span>
+                        <p class="main-para">Here are some examples of text with almost exactly 4.5:1 contrast.</p>
+                        <ul>
+                            <li id="gray">Gray (#767676) on white</li>
+                            <li id="purple">Purple (#CC21CC) white</li>
+                            <li id="blue"><span class="highlight-gray">Blue (#000063) on gray (#808080)</span></li>
+                            <li id="red"><span class="highlight-yellow">Red (#E60000) on yellow (#FFFF47)</span></li>
+                        </ul>
+                        <p class="main-para">For many of us, some of these combinations are not very readable. That is why 4.5:1 is the minimum required by WCAG.</p>
+                        <span class="space"></span>    
+                    </div>
                         
+                    <!--Col 3-->
+                    <div class="col-lg-6 col-3">
+                        <span class="space"></span>    
                         <p><strong>Contrast (Enhanced)</strong></p>
                         <p class="main-para">In order to achieve Accessibility Level AAA, The visual presentation of text and images of text has a contrast ratio of at least 7:1</p>
-                        <p class="main-para">More info + images and examples to be added. https://webaim.org/articles/contrast/</p>
+                        <p class="main-para"><p class="main-para">The only difference between this Level AAA success criterion and Level AA <strong>1.4.3</strong> is that contrast requirements are more stringent. It requires <strong>7:1</strong> contrast for normal text and <strong>4.5:1</strong> for large text. Although higher contrast is often recommended, Level AA conformance is the requirement within common laws and standards</p>
+                    </div>
+
+                    <!--Coll 4-->
+                    <div class="col-lg-12 col-4">
                         <span class="space"></span>
-                        
                         <p><strong>Non-text Contrast</strong></p>
                         <p class="main-para">In order to achieve Accessibility Level AA, The visual presentation of Non-text Contrast has a contrast ratio of at least 3:1</p>
-                        <p class="main-para">More info + images and examples to be added. https://webaim.org/articles/contrast/</p>
+                        <p class="main-para">There is one notable difference in how contrast requirements are applied. Contrast requirements in WCAG 2.0 are between text and background, but 1.4.11 requires contrast of at least 3:1 against adjacent color(s)" which means you may need to measure contrast in more than one place. A non-text element may have different contrast on one side than the other (like a wedge in a pie chart), or it may contain different-colored components that need 3:1 contrast with each other.</p>
                     </div>
+                    
+                    
+                    
                 </div>
             </div>
             <span class="space"></span>
