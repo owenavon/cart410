@@ -53,15 +53,20 @@
             <div class="container">
                 <div class="row d-flex align-items-start">
                     <div class="col-md-12">
-                        <h1 id="header-text" tabindex="0">Contrast.</h1>
-                        <h2 class="main-colour">Subtitle goes here...</h2>
-                        <span class="space"></span>
+                       
+                        <!--Contrast Animation-->
+                        <div class="bg"> 
+                            <div class="absolute">
+                                <h1 id="header-text-animation" tabindex="0"><span class="black-text"> Contrast. </span>Contrast.<span class="black-text"> Contrast. </span></h1>
+                            </div>
+                        </div> 
                         
                         <div class="selector-space">
-                            <p id="custom-slider-text" tabindex="0">Select display colours</p>
+                        <p id="custom-slider-text" tabindex="0">Select display colours</p>
                             <input id="colorpickertext" tabindex="0" data-toggle="tooltip" title="Click to select text colour" type="color">
                             <input id="colorpicker" tabindex="0" data-toggle="tooltip" title="Click to select background colour" type="color">
-                        </div>
+                        </div>   
+                    
                     </div>
                 </div>
             </div>
@@ -73,29 +78,14 @@
             <div class="container">
                 <div class="row d-flex align-items-start">   
                     
-                    <!--Contrast Animation-->
-                    <div class="col-lg-12">
-                        <div class="relative">
-                            <div class="bg"> </div>
-                            <div class="absolute">
-                                <div class="text">
-                                    <h1 class="animation">Contrast</h1>
-                                    <h3 class="animation">Is<span class="beige-text"> Really </span>Important</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
                     <!--Col 1-->
                     <div class="col-lg-12 col-1">
                         <p class="main-para">According to WCAG 2, contrast is a measure of the difference in perceived "luminance" or brightness between two colors. The brightness difference is expressed as a ratio ranging from 1:1 (white on white) to 21:1 (black on a white).</p>
-                        
                         <ul>
                             <li>Pure red (#FF0000) has a ratio of 4:1. <span class="red">I am red text.</span></li>
                             <li>Pure green (#00FF00) has a very low ratio of 1.4:1. <span class="green">I am green text.</span></li>
-                            <li>Pure blue (#000FF) has a contrast ratio of 8.6:1. <span class="blue">I am blue text.</span></li>
+                            <li>Pure blue (#0000FF) has a contrast ratio of 8.6:1. <span class="blue">I am blue text.</span></li>
                         </ul>
-                                           
                     </div>
                     
                     <!--Col 2-->
@@ -130,11 +120,8 @@
                         <p class="main-para">There is one notable difference in how contrast requirements are applied. Contrast requirements in WCAG 2.0 are between text and background, but 1.4.11 requires contrast of at least 3:1 against adjacent color(s)" which means you may need to measure contrast in more than one place. A non-text element may have different contrast on one side than the other (like a wedge in a pie chart), or it may contain different-colored components that need 3:1 contrast with each other.</p>
                     </div>
                     
-                    
-                    
                 </div>
             </div>
-            <span class="space"></span>
         </section>
         
         <!--Banner-->

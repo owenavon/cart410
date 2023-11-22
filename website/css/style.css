@@ -88,7 +88,7 @@ li#purple {
 }
 
 .blue {
-    color: #000FFF;
+    color: #0000FF;
 }
 
 .highlight-gray {
@@ -115,7 +115,7 @@ p#custom-slider-text {
 
 /*----------LISTS & LINKS----------*/
 ul.list-unstyled, li, a {
-    color: coral;
+    color: #CF5300;
 }
 
 ul.list-unstyled, li, a:hover {
@@ -128,7 +128,23 @@ ul.navbar-nav, li.nav-item, a.nav-link {
 }
 
 ul.navbar-nav, li.nav-item, a.nav-link:hover {
-    color: coral;
+    color: #CF5300;
+    text-decoration: underline;
+}
+
+
+
+
+ul.list-unstyled-footer, a {
+    color: #131415;
+    list-style: none;
+    text-decoration: underline;
+}
+
+ul.list-unstyled-footer, a:hover {
+    color: #CF5300;
+    list-style: none;
+    text-decoration: underline;
 }
 
 li.code {
@@ -146,7 +162,7 @@ a.ui-link {
 }
 
 a.ui-link:hover {
-    color: #131415;
+    color: #CF5300;
 }
 
 
@@ -186,83 +202,69 @@ a.ui-link:hover {
 }
 
 .col-1 {
+    margin-top: 10px;
     background: #ffffff;
-    margin: 10px;
+    border-style: solid;
+    border-color: #fcfbec;
+    border-width: 10px;
 }
 
 .col-2 {
     background: #ffffff;
-    margin: 10px;
+    border-style: solid;
+    border-color: #fcfbec;
+    border-width: 10px;
 }
 
 .col-3 {
     background: #ffffff;
-    margin: 10px;
+    border-style: solid;
+    border-color: #fcfbec;
+    border-width: 10px;
 }
 
 .col-4 {
     background: #ffffff;
-    margin: 10px;
+    border-style: solid;
+    border-color: #fcfbec;
+    border-width: 10px;
+    border-bottom-width: 20px;
 }
 
 
 /*----------ANIMATION----------*/
 
-h1.animation,
-h3.animation {
-    margin: 0;
-    font-family: sans-serif;
-    font-weight: 300;
-    color: #4f4f4f;
-    margin: 0;
-    mix-blend-mode: color-dodge;
-}
-
-h1.animation {
-    font-size: 4rem;
-    line-height: 100%;
+h1#header-text-animation {
     color: #fcfbec;
-    padding-left: 25%;
+    margin-top: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5em;
     text-align: center;
 }
 
-h3.animation {
-    color: #fcfbec;
-    padding-left: 25%;
-    text-align: center;
-}
-
-.text {
-    width: 400px;
-    margin: 5% 5%;
-}
-
-.relative {
-    position: relative;
-}
-
-.beige-text {
-    color: #333333;
+.black-text {
+    color: #131415;
 }
 
 .absolute {
     z-index: 100;
     position: absolute;
-    width: 100vw;
-    height: 20vw;
+    width: 100%;
+    height: auto;
     top: 0rem;
 }
 
 .bg {
-    background-color: #333333;
-    height: 33vh;
+    margin-top: 40px;
+    background-color: #fcfbec;
+    height: 25vh;
     max-width: 0px;
-    animation: x 3s ease-in 1s infinite alternate;
+    animation: x 3s ease-in-out 1s infinite alternate;
 }
 
 @keyframes x {
     100% {
-    max-width: 100vw;
+    max-width: 100%;
   }
 }
 

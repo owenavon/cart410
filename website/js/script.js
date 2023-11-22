@@ -12,12 +12,3 @@ document.getElementById("colorpickertext").addEventListener("change", function()
 $(document).ready(function() {
     $("body").tooltip({ selector: '[data-toggle=tooltip]' });
 });
-
-function run() {
-  let timer;
-  timer = setInterval(function () {
-    chageWord();
-  }, 2000);
-}
-
-run();
