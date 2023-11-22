@@ -132,9 +132,6 @@ ul.navbar-nav, li.nav-item, a.nav-link:hover {
     text-decoration: underline;
 }
 
-
-
-
 ul.list-unstyled-footer, a {
     color: #131415;
     list-style: none;
@@ -165,6 +162,10 @@ a.ui-link:hover {
     color: #CF5300;
 }
 
+hr {
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+}
 
 /*----------SECTIONS----------*/
 
@@ -281,6 +282,11 @@ h1#header-text-animation {
 
 .space {
     margin: 55px;
+}
+
+.space-beige {
+    margin: 55px;
+    color: #fcfbec;
 }
 
 
