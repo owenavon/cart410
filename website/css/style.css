@@ -169,7 +169,7 @@ hr {
 
 /*----------SECTIONS----------*/
 
-#header {
+#header-background {
     background: #131415;
 }
 
@@ -255,7 +255,7 @@ h1#header-text-animation {
     top: 0rem;
 }
 
-.bg {
+#highlight-animation {
     margin-top: 40px;
     background-color: #fcfbec;
     height: 25vh;
