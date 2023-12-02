@@ -29,7 +29,7 @@ h2.black-colour {
 }
 
 h2.black-colour-no-space {
-    color: #ffffff;
+    color: #000000;
     margin-top: 2em;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -59,7 +59,7 @@ h4.main-colour-black {
 }
 
 li.main-banner-text {
-    color: #ffffff;
+    color: #000000;
 }
 
 p.main-para {
@@ -137,6 +137,12 @@ cite {
     padding: .25em 0;
     background: #FFFF47;
     color: #E60000;
+}
+
+.highlight-yellow-white {
+    display: inline-block;
+    padding: .25em 0;
+    background: #FFFF47;
 }
 
 p#custom-slider-text {
