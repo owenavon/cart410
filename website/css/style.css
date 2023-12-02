@@ -29,7 +29,7 @@ h2.black-colour {
 }
 
 h2.black-colour-no-space {
-    color: #131415;
+    color: #ffffff;
     margin-top: 2em;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -52,8 +52,14 @@ h3.main-colour-black {
     margin-top: 2em;
 }
 
-p.main-banner-text {
-    color: #9f9e9a;
+h4.main-colour-black {
+    color: #131415;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 2em;
+}
+
+li.main-banner-text {
+    color: #ffffff;
 }
 
 p.main-para {
@@ -77,6 +83,34 @@ li#gray {
 
 li#purple {
     color: #CC21CC;
+}
+
+li.space-bottom {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+ul.list-background {
+    background: #f4f3e2;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+p.index-space {
+    margin-top: 3em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+cite {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    text-align: right;
+    margin-bottom: 10px;
 }
 
 .red {
@@ -199,7 +233,13 @@ hr {
     background: url("../images/contact.JPG") no-repeat center center;
     background-size: cover;
     padding-top: 2rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
+}
+
+.banner-center {
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
 }
 
 .col-1 {
@@ -232,6 +272,14 @@ hr {
     border-bottom-width: 20px;
 }
 
+#image1 {
+    background: #fcfbec;
+}
+
+.example-image {
+    width: 25em;
+    margin-bottom: 1em;
+}
 
 /*----------ANIMATION----------*/
 
@@ -274,6 +322,10 @@ h1#header-text-animation {
 
 .col-md-6 {
     padding-left: 50px;
+}
+
+.little-pad {
+    padding-left: 15px;
 }
 
 .selector-space {
