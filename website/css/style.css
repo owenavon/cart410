@@ -127,8 +127,8 @@ li.space-bottom {
     padding-bottom: 15px;
 }
 
-ul.list-background {
-    background: #f4f3e2;
+ol.list-background {
+    background: #f4f1de;
     border-style: solid;
     border-width: 2px;
 }
