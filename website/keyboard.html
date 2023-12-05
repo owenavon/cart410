@@ -54,13 +54,13 @@
                 <div class="row d-flex align-items-start">
                     <div class="col-md-12">
                         <h1 id="header-text" tabindex="0">Keyboard.</h1>
-                        <h2 class="main-colour">Navigation without a mouse.</h2>
+                        <h2 class="main-colour" tabindex="0">Navigation without a mouse.</h2>
                         <span class="space"></span>
                         
                         <div class="selector-space">
                             <p id="custom-slider-text" tabindex="0">Select display colours</p>
-                            <input id="colorpicker-text" tabindex="0" data-toggle="tooltip" title="Click to select text colour" type="color">
-                            <input id="colorpicker-background" tabindex="0" data-toggle="tooltip" title="Click to select background colour" type="color">
+                            <input id="colorpicker-text" tabindex="0" data-toggle="tooltip" title="Click to select text colour." type="color">
+                            <input id="colorpicker-background" tabindex="0" data-toggle="tooltip" title="Click to select background colour." type="color">
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
             <div class="container">
                 <div class="row d-flex align-items-start">   
                     <div class="col-md-12">
-                        <h3 class="main-colour-black"><strong>Keyboard</strong></h3>
+                        <h3 class="main-colour-black" tabindex="0"><strong>Keyboard</strong></h3>
                     </div>
                 </div>
             </div>
@@ -84,10 +84,10 @@
             <div class="container">
                 <div class="row d-flex align-items-start">   
                     <div class="col-md-6">
-                        <h4 class="top-keyboard"><q>All functionality must be usable with the keyboard. That is, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse; for example, pop-up calendars should also let users type in a date. Ensure that the tab order is logical, to allow keyboard navigation around the content and controls.</q></h4>
+                        <p class="top-keyboard" tabindex="0"><q>All functionality must be usable with the keyboard. That is, users can access and move between links, buttons, forms, and other controls using the Tab key and other keystrokes. Websites should not require a mouse; for example, pop-up calendars should also let users type in a date. Ensure that the tab order is logical, to allow keyboard navigation around the content and controls.</q></p>
                     </div>
                     <div class="col-md-6">
-                        <iframe class="w3-video" src="https://www.youtube.com/embed/93UgG72os8M?si=1ewrwDvjEXl4yV87" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="w3-video" tabindex="0" src="https://www.youtube.com/embed/93UgG72os8M?si=1ewrwDvjEXl4yV87" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -100,23 +100,23 @@
             <div class="container">
                 <div class="row d-flex align-items-start">   
                     <div class="col-md-12">
-                        <h3 class="main-colour-black"><strong>Tabbing</strong></h3>
-                        <p><q>When a tabbed interface is initialized, one tab panel is displayed and its associated tab is styled to indicate that it is active. When the user activates one of the other tab elements, the previously displayed tab panel is hidden, the tab panel associated with the activated tab becomes visible, and the tab is considered "active".</q></p>
+                        <h3 class="main-colour-black" tabindex="0"><strong>Tabbing</strong></h3>
+                        <p tabindex="0"><q>When a tabbed interface is initialized, one tab panel is displayed and its associated tab is styled to indicate that it is active. When the user activates one of the other tab elements, the previously displayed tab panel is hidden, the tab panel associated with the activated tab becomes visible, and the tab is considered "active".</q></p>
                         <section class="alert alert-info">
-                            <p id="note-text"><strong>Tab:</strong></p>
+                            <p id="note-text" tabindex="0"><strong>Tab:</strong></p>
                             <ul>
-                                <li>When focus moves into the tab list, places focus on the active tab element.</li>
-                                <li>When the tab list contains the focus, moves focus to the next element in the page tab sequence outside the tablist, which is the tabpanel unless the first element containing meaningful content inside the tabpanel is focusable.</li>
+                                <li tabindex="0">When focus moves into the tab list, places focus on the active tab element.</li>
+                                <li tabindex="0">When the tab list contains the focus, moves focus to the next element in the page tab sequence outside the tablist, which is the tabpanel unless the first element containing meaningful content inside the tabpanel is focusable.</li>
                                 <br>
-                                <li>Tabbing through a list will enter nested sections</li>
+                                <li tabindex="0">Tabbing through a list will enter nested sections</li>
                                 <ul>
-                                    <li>Like this section, or</li>
+                                    <li tabindex="0">Like this section, or</li>
                                     <ul>
-                                        <li>this section, and even...</li>
+                                        <li tabindex="0">this section, and even...</li>
                                         <ul>
-                                            <li>this section!</li>
+                                            <li tabindex="0">this section!</li>
                                             <ul>
-                                                <li>Nest, nest, nest.</li>
+                                                <li tabindex="0">Nest, nest, nest.</li>
                                             </ul>
                                         </ul>
                                     </ul>
@@ -126,12 +126,11 @@
                     </div>
                 </div>
             </div>
-            <hr>
             <span class="space"></span>
         </section>
         
         <!--Banner-->
-        <section id="banner">
+        <section id="banner" data-toggle="tooltip" title="Banner screenshot of code to compliment the theme of the website." tabindex="0">
             <span class="space"></span>
         </section>
         
@@ -178,6 +177,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     
         <script src="js/script.js"></script>
-        <script src="js/prism_js.js"></script>
     </body>
 </html>

@@ -21,6 +21,21 @@ h2.main-colour {
     margin-bottom: 2em;
 }
 
+h2.main-colour-audio-text {
+    color: #fcfbec;
+    margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 2em;
+    background: url("../images/play.png") no-repeat top right;
+    padding-right: 20px;
+    padding-top: -15px;
+    width: 22.5%;
+}
+
+h2.main-colour-audio-text:hover {
+    cursor: pointer;
+}
+
 h2.black-colour {
     color: #131415;
     margin-top: 2em;
@@ -58,15 +73,19 @@ h4.main-colour-black {
     margin-top: 2em;
 }
 
-h4.top-keyboard {
-    color: #131415;
-    font-weight: 100;
-    margin-top: 2em;
-    font-size: 20px;
+p.top-keyboard {
+    margin-top: 7em;
 }
 
 li.main-banner-text {
     color: #000000;
+}
+
+li.main-banner-text::marker {
+    display: inline-block;
+    padding: .25em 0;
+    background: #FFFF47;
+    color: #FFFF47;
 }
 
 p.main-para {
@@ -180,8 +199,15 @@ p#custom-slider-text {
     padding: 15px;
     margin-bottom: 23px;
     border: 1px solid transparent;
-    background-color: #ece6ef;
+    background-color: rgba(0,133,242,.1);
+    
+    width: 75%;
+    margin: auto;
+}
+
+.alert, .alert-info {
     margin-top: 56px;
+    margin-bottom: 56px;
 }
 
 .alert > :first-child:before {
@@ -280,7 +306,7 @@ hr {
 #banner {
     position: relative;
     background-color: #343a40;
-    background: url("../images/contact.JPG") no-repeat center center;
+    background: url("../images/bottom-banner.png") no-repeat center center;
     background-size: cover;
     padding-top: 2rem;
     padding-bottom: 5rem;

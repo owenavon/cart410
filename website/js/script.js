@@ -1,3 +1,8 @@
+// Tool Tip
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
+
 // Text Colour Picker
 document.getElementById("colorpicker-text").addEventListener("change", function() {
     document.getElementById("header-text").style.color = this.value;
@@ -13,7 +18,8 @@ document.getElementById("colorpicker-highlight").addEventListener("change", func
     document.getElementById("highlight-animation").style.backgroundColor = this.value;
 });
 
-// Tool Tip
-$(document).ready(function() {
-    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-});
+// Play Text to Speech Recording
+function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+}

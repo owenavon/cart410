@@ -54,13 +54,13 @@
                 <div class="row d-flex align-items-start">
                     <div class="col-md-12">
                         <h1 id="header-text" tabindex="0">Markup.</h1>
-                        <h2 class="main-colour">How to integrate accessibility into the markup of the code.</h2>
+                        <h2 class="main-colour" tabindex="0">How to integrate accessibility into the markup of the code.</h2>
                         <span class="space"></span>
                         
                         <div class="selector-space">
                             <p id="custom-slider-text" tabindex="0">Select display colours</p>
-                            <input id="colorpicker-text" tabindex="0" data-toggle="tooltip" title="Click to select text colour" type="color">
-                            <input id="colorpicker-background" tabindex="0" data-toggle="tooltip" title="Click to select background colour" type="color">
+                            <input id="colorpicker-text" tabindex="0" data-toggle="tooltip" title="Click to select text colour." type="color">
+                            <input id="colorpicker-background" tabindex="0" data-toggle="tooltip" title="Click to select background colour." type="color">
                         </div>
                     </div>
                 </div>
@@ -73,9 +73,9 @@
             <div class="container">
                 <div class="row d-flex align-items-start">   
                     <div class="col-md-12">
-                        <h3 class="main-colour-black"><strong>Tip 1</strong></h3>
-                        <p class="main-colour-black">Headings establish the hierarchy of the content of the page. Therefore it is important to use heading tags in order from h1 to h4. Screen readers uses headings tags to read content in order from top to bottom.</p>
-                        <div class="code-block">
+                        <h3 class="main-colour-black" tabindex="0"><strong>Tip 1</strong></h3>
+                        <p class="main-colour-black" tabindex="0">Headings establish the hierarchy of the content of the page. Therefore it is important to use heading tags in order from h1 to h4. Screen readers uses headings tags to read content in order from top to bottom.</p>
+                        <div class="code-block" tabindex="0">
                         
                            <pre>
                                <code class="language-html line-numbers">
@@ -99,17 +99,17 @@
             <div class="container">
                 <div class="row d-flex align-items-start">   
                     <div class="col-md-12">
-                        <h3 class="main-colour-black"><strong>Tip 2</strong></h3>
-                        <p>The importance of using semantic HTML</p>
+                        <h3 class="main-colour-black" tabindex="0"><strong>Tip 2</strong></h3>
+                        <p tabindex="0">The importance of using semantic HTML</p>
                         
-                        <p>Try to use the correct element for the job. It is possible to use CSS and JS to modify elements, but assistive technology such as <a href="./screen_reader.html">screen readers</a>, simply only read the DOM (document object model), and thus using the elements designed for the job is most efficient.</p>
+                        <p tabindex="0">Try to use the correct element for the job. It is possible to use CSS and JS to modify elements, but assistive technology such as <a href="./screen_reader.html">screen readers</a>, simply only read the DOM (document object model), and thus using the elements designed for the job is most efficient.</p>
                         
-                        <p>In addition to accessibility, sematic elements benefit.</p>
+                        <p tabindex="0">In addition to accessibility, sematic elements benefit.</p>
                         
                         <ul>
-                            <li>Easier to develop with &ndash; as mentioned above, you get some functionality for free, plus it is arguably easier to understand. </li>
-                            <li>Better on mobile &ndash; semantic HTML is arguably lighter in file size than non-semantic spaghetti code, and easier to make responsive.</li>
-                            <li>Good for SEO &ndash; search engines give more importance to keywords inside headings, links, etc. than keywords included in non-semantic elements, etc., so your documents will be more findable by customers.</li>
+                            <li tabindex="0">Easier to develop with &ndash; as mentioned above, you get some functionality for free, plus it is arguably easier to understand. </li>
+                            <li tabindex="0">Better on mobile &ndash; semantic HTML is arguably lighter in file size than non-semantic spaghetti code, and easier to make responsive.</li>
+                            <li tabindex="0">Good for SEO &ndash; search engines give more importance to keywords inside headings, links, etc. than keywords included in non-semantic elements, etc., so your documents will be more findable by customers.</li>
                         </ul>
                         
                         <span class="space"></span>
@@ -127,8 +127,8 @@
             <div class="container">
                 <div class="row d-flex align-items-start">
                     <div class="col-md-12">
-                        <h3 class="main-colour-black"><strong>Tip 3</strong></h3>
-                        <p class="main-colour-black">Review the WAI-ARIA Roles. There are 6 categories of ARIA roles:</p>
+                        <h3 class="main-colour-black" tabindex="0"><strong>Tip 3</strong></h3>
+                        <p class="main-colour-black" tabindex="0">Review the WAI-ARIA Roles. There are 6 categories of ARIA roles:</p>
                         <ul>
                             <li class="main-colour"><a class="ui-link" rel="external" href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles#aria_role_types">Document structure roles</a></li>
                             <li class="main-colour"><a class="ui-link" rel="external" href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles#2._widget_roles">Widget roles</a></li>
@@ -140,12 +140,11 @@
                     </div>
                 </div>
             </div>
-            <hr>
             <span class="space"></span>
         </section>
         
         <!--Banner-->
-        <section id="banner">
+        <section id="banner" data-toggle="tooltip" title="Banner screenshot of code to compliment the theme of the website." tabindex="0">
             <span class="space"></span>
         </section>
         
