@@ -54,7 +54,7 @@
                 <div class="row d-flex align-items-start">
                     <div class="col-md-12">
                         <h1 id="header-text" tabindex="0">Screen Reader.</h1>
-                        <h2 class="main-colour-audio-text" input type="text" value="PLAY" onclick="play()" data-toggle="tooltip" title="Click to have the text played back" tabindex="0">Text to Speech.</h2>
+                        <h2 class="main-colour-audio-text" input type="text" value="PLAY" onclick="play()" data-toggle="tooltip" title="Click to have the text played back." tabindex="0">Text to Speech.</h2>
                         <audio id="audio" src="./audio/text_to_speech.mp3"></audio>
                         <span class="space"></span>
                         
@@ -69,30 +69,87 @@
             <span class="space"></span>
         </section>
         
-        
-        <section id="tip2">
+        <!--Screen Reader 1-->
+        <section id="screen-reader1">
             <div class="container">
                 <div class="row d-flex align-items-start">   
                     <div class="col-md-12">
+                        <h3 class="main-colour-black" tabindex="0"><strong>What is a screen reader?</strong></h3>
                         
-                        <p>The screen reader reads each header out as you progress through the content, notifying you what a heading is, what is a paragraph, etc.
-It stops after each element, letting you go at whatever pace is comfortable for you.
-You can jump to the next/previous heading in many screen readers.
-You can also bring up a list of all headings in many screen readers, allowing you to use them as a handy table of contents to find specific content.</p>
+                        <p tabindex="0">A screen reader is an assistive technology that reads each header out as you progress through the content, notifying you what a heading is, what is a paragraph, etc. It stops after each element, letting you go at whatever pace is comfortable for you. You can jump to the next/previous heading in many screen readers. You can also bring up a list of all headings in many screen readers, allowing you to use them as a handy table of contents to find specific content.</p>
                    
+                        <p tabindex="0">When a screen reader, or any sort of assistive device scans a web page, it gets information about the Document Object Model (DOM), or the HTML structure of the page. No styles or JavaScript will be read by a screen reader.</p>
+                        
+                        <p><a class="ui-link" rel="external" href="http://web-accessibility.carnegiemuseums.org/foundations/semantic/">http://web-accessibility.carnegiemuseums.org/foundations/semantic/</a></p>
                    
-                   <p>When a screen reader, or any sort of assistive device scans a web page, it gets information about the Document Object Model (DOM), or the HTML structure of the page. No styles or JavaScript will be read by a screen reader.</p>
-
-                   <p><a class="ui-link" rel="external" href="http://web-accessibility.carnegiemuseums.org/foundations/semantic/">http://web-accessibility.carnegiemuseums.org/foundations/semantic/</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <span class="space"></span>
+        </section>
+        
+        <!--Screen Reader 2-->
+        <section id="screen-reader2">
+            <div class="container">
+                <div class="row d-flex align-items-start">   
+                    <div class="col-md-12">
+                        <h3 class="main-colour-black" tabindex="0"><strong>How do you implement a screen reader on to your website?</strong></h3>
+                        
+                        <p  tabindex="0">The short answer is that you don't. Screen readers are installed and used by end users. This means that the web developer must code accordingly, and use alt tags, tabindex tags, and proper HTML semantics.</p>
                    
+                        <p tabindex="0">One of the first steps that the programmer must take is to identify the language of the web page. This will tell the screen reader what language the content is in. This is done with the lang attribute. This code is placed at the top of any given page.</p>
+                        
+                        <div class="code-block" data-toggle="tooltip" title="HTML code depicting the lang tag.">
+                            <pre>
+                                <code class="language-html line-numbers">
+&lt;!DOCTYPE&nbsp;html&gt;
+&lt;html&nbsp;lang="en"&gt;
+                                </code>
+                            </pre> 
+                        </div>  
+                   
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <span class="space"></span>
+        </section>
+        
+        <!--Screen Reader 3-->
+        <section id="screen-reader3">
+            <div class="container">
+                <div class="row d-flex align-items-start">   
+                    <div class="col-md-12">
+                        <h3 class="main-colour-black" tabindex="0"><strong>Screen reader accessible programming vs. inaccessible programming</strong></h3>
                     </div>
                 </div>
             </div>
             <span class="space"></span>
         </section>
         
+        <!--Screen Reader 4-->
+        <section id="screen-reader4">
+            <div class="container">
+                <div class="row d-flex align-items-start">   
+                    <div class="col-md-6">
+                        <p tabindex="0">This is accessible text. The text has been added in an orderly way where the reader will automatically highlight, and read.</p>
+                        
+                        <img class="example-image" src="./images/bon_echo.jpeg" tabindex="0" alt="Landscape photograph of a tall rocky cliff against Mazinaw Lake in Bon Echo Provincial Park. The photo was shot in July 2018." data-toggle="tooltip" title="Landscape photograph of a tall rocky cliff against Mazinaw Lake in Bon Echo Provincial Park. The photo was shot in July 2018.">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <p>This is inaccessible text. The text has been added in the HTML, but the screen reader does not know how to access its content, without the user clicking on it.</p>
+                        
+                        <img class="example-image" src="./images/bon_echo.jpeg" tabindex="0" alt="IMG_07.JPEG">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </section>
+        
         <!--Banner-->
-        <section id="banner" data-toggle="tooltip" title="Banner screenshot of code to compliment the theme of the website." tabindex="0">
+        <section id="banner" data-toggle="tooltip" title="A screenshot of the code to compliment the theme of the website." tabindex="0">
             <span class="space"></span>
         </section>
         
@@ -101,7 +158,7 @@ You can also bring up a list of all headings in many screen readers, allowing yo
             <div class="container-fluid text-center text-md-left">
                 <div class="row">
                     <div class="col-md-6 mt-md-0 mt-3">
-                        <p tabindex="0">How may we design a web-based user experience that is both interactive and accessible?</p>
+                        <p class="research-question" tabindex="0"><em>How may we design a web-based user experience that is both interactive and accessible?</em></p>
                     </div>
                     <hr class="clearfix w-100 d-md-none pb-3">
                     <div class="col-md-3 mb-md-0 mb-3">
@@ -139,5 +196,6 @@ You can also bring up a list of all headings in many screen readers, allowing yo
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     
         <script src="js/script.js"></script>
+        <script src="js/prism_js.js"></script>
     </body>
 </html>

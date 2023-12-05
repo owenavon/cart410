@@ -93,6 +93,12 @@ p.main-para {
     margin: 10px;
 }
 
+p.research-question {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+}
+
 p#note-text {
     margin-left: 25px;
 }
@@ -123,13 +129,12 @@ li.space-bottom {
 
 ul.list-background {
     background: #f4f3e2;
-    border-radius: 25px;
     border-style: solid;
     border-width: 2px;
 }
 
 p.index-space {
-    margin-top: 3em;
+    margin-top: 3.5em;
     justify-content: center;
     align-items: center;
     margin-left: 10rem;
@@ -246,6 +251,13 @@ ul.list-unstyled-footer, a {
     color: #131415;
     list-style: none;
     text-decoration: underline;
+}
+
+ul.list-unstyled {
+    color: #131415;
+    list-style: none;
+    text-decoration: underline;
+    margin-bottom: 2em;
 }
 
 ul.list-unstyled-footer, a:hover {
@@ -366,6 +378,22 @@ hr {
 }
 
 #keyboard3 {
+    background: #fcfbec;
+}
+
+#screen-reader1 {
+    background: #fcfbec;
+}
+
+#screen-reader2 {
+    background: #fcfbec;
+}
+
+#screen-reader3 {
+    background: #fcfbec;
+}
+
+#screen-reader4 {
     background: #fcfbec;
 }
 
